@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "submodule-3/submodule-3.2",
+		"source" : "submodule-3/submodule-3.2"
+	}
+}

@@ -30,9 +30,9 @@ jobs:
           sudo cp lib/*.a /usr/lib  # Move libraries to system path
       
       - name: Tag version
-        run: ./tag_all_repos.sh v1.0.2
+        run: ./tag_all_repos.sh v1.0.1
       - name: Checkout version
-        run: ./check_out_tags.sh v1.0.2
+        run: ./check_out_tags.sh v1.0.1
 
       - name: Build software
         run: ./build_all.sh

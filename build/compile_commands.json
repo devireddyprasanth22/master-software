@@ -1,0 +1,128 @@
+[
+{
+  "directory": "/Users/dp/Desktop/speqtral_challenge/master-software/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin23-gcc-14  -I/Users/dp/Desktop/speqtral_challenge/master-software/submodule-1 -I/Users/dp/Desktop/speqtral_challenge/master-software/submodule-2 -I/Users/dp/Desktop/speqtral_challenge/master-software/submodule-3 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=14.7 -o CMakeFiles/masterSoftware.dir/masterSoftware.c.o -c /Users/dp/Desktop/speqtral_challenge/master-software/masterSoftware.c",
+  "file": "/Users/dp/Desktop/speqtral_challenge/master-software/masterSoftware.c",
+  "output": "CMakeFiles/masterSoftware.dir/masterSoftware.c.o"
+},
+{
+  "directory": "/Users/dp/Desktop/speqtral_challenge/master-software/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin23-gcc-14  -I/Users/dp/Desktop/speqtral_challenge/master-software/submodule-1 -I/Users/dp/Desktop/speqtral_challenge/master-software/submodule-2 -I/Users/dp/Desktop/speqtral_challenge/master-software/submodule-3 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=14.7 -o CMakeFiles/masterSoftware_lib.dir/masterSoftware.c.o -c /Users/dp/Desktop/speqtral_challenge/master-software/masterSoftware.c",
+  "file": "/Users/dp/Desktop/speqtral_challenge/master-software/masterSoftware.c",
+  "output": "CMakeFiles/masterSoftware_lib.dir/masterSoftware.c.o"
+},
+{
+  "directory": "/Users/dp/Desktop/speqtral_challenge/master-software/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin23-g++-14  -I/Users/dp/Desktop/speqtral_challenge/master-software/submodule-1 -I/Users/dp/Desktop/speqtral_challenge/master-software/submodule-2 -I/Users/dp/Desktop/speqtral_challenge/master-software/submodule-3 -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=14.7 -o CMakeFiles/test-masterSoftware.dir/test-masterSoftware.cpp.o -c /Users/dp/Desktop/speqtral_challenge/master-software/test-masterSoftware.cpp",
+  "file": "/Users/dp/Desktop/speqtral_challenge/master-software/test-masterSoftware.cpp",
+  "output": "CMakeFiles/test-masterSoftware.dir/test-masterSoftware.cpp.o"
+},
+{
+  "directory": "/Users/dp/Desktop/speqtral_challenge/master-software/build/submodule-1",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin23-gcc-14   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=14.7 -o CMakeFiles/submodule1_lib.dir/submodule1.c.o -c /Users/dp/Desktop/speqtral_challenge/master-software/submodule-1/submodule1.c",
+  "file": "/Users/dp/Desktop/speqtral_challenge/master-software/submodule-1/submodule1.c",
+  "output": "submodule-1/CMakeFiles/submodule1_lib.dir/submodule1.c.o"
+},
+{
+  "directory": "/Users/dp/Desktop/speqtral_challenge/master-software/build/submodule-1",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin23-gcc-14   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=14.7 -o CMakeFiles/submodule1.dir/submodule1.c.o -c /Users/dp/Desktop/speqtral_challenge/master-software/submodule-1/submodule1.c",
+  "file": "/Users/dp/Desktop/speqtral_challenge/master-software/submodule-1/submodule1.c",
+  "output": "submodule-1/CMakeFiles/submodule1.dir/submodule1.c.o"
+},
+{
+  "directory": "/Users/dp/Desktop/speqtral_challenge/master-software/build/submodule-1",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin23-g++-14  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=14.7 -o CMakeFiles/submodule1_tests.dir/test-submodule1.cpp.o -c /Users/dp/Desktop/speqtral_challenge/master-software/submodule-1/test-submodule1.cpp",
+  "file": "/Users/dp/Desktop/speqtral_challenge/master-software/submodule-1/test-submodule1.cpp",
+  "output": "submodule-1/CMakeFiles/submodule1_tests.dir/test-submodule1.cpp.o"
+},
+{
+  "directory": "/Users/dp/Desktop/speqtral_challenge/master-software/build/submodule-1/submodule-1.1",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin23-gcc-14   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=14.7 -o CMakeFiles/submodule11_lib.dir/submodule11.c.o -c /Users/dp/Desktop/speqtral_challenge/master-software/submodule-1/submodule-1.1/submodule11.c",
+  "file": "/Users/dp/Desktop/speqtral_challenge/master-software/submodule-1/submodule-1.1/submodule11.c",
+  "output": "submodule-1/submodule-1.1/CMakeFiles/submodule11_lib.dir/submodule11.c.o"
+},
+{
+  "directory": "/Users/dp/Desktop/speqtral_challenge/master-software/build/submodule-1/submodule-1.1",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin23-gcc-14   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=14.7 -o CMakeFiles/submodule11.dir/submodule11.c.o -c /Users/dp/Desktop/speqtral_challenge/master-software/submodule-1/submodule-1.1/submodule11.c",
+  "file": "/Users/dp/Desktop/speqtral_challenge/master-software/submodule-1/submodule-1.1/submodule11.c",
+  "output": "submodule-1/submodule-1.1/CMakeFiles/submodule11.dir/submodule11.c.o"
+},
+{
+  "directory": "/Users/dp/Desktop/speqtral_challenge/master-software/build/submodule-1/submodule-1.1",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin23-g++-14  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=14.7 -o CMakeFiles/test-submodule11.dir/test-submodule11.cpp.o -c /Users/dp/Desktop/speqtral_challenge/master-software/submodule-1/submodule-1.1/test-submodule11.cpp",
+  "file": "/Users/dp/Desktop/speqtral_challenge/master-software/submodule-1/submodule-1.1/test-submodule11.cpp",
+  "output": "submodule-1/submodule-1.1/CMakeFiles/test-submodule11.dir/test-submodule11.cpp.o"
+},
+{
+  "directory": "/Users/dp/Desktop/speqtral_challenge/master-software/build/submodule-2",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin23-gcc-14   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=14.7 -o CMakeFiles/submodule2_lib.dir/submodule2.c.o -c /Users/dp/Desktop/speqtral_challenge/master-software/submodule-2/submodule2.c",
+  "file": "/Users/dp/Desktop/speqtral_challenge/master-software/submodule-2/submodule2.c",
+  "output": "submodule-2/CMakeFiles/submodule2_lib.dir/submodule2.c.o"
+},
+{
+  "directory": "/Users/dp/Desktop/speqtral_challenge/master-software/build/submodule-2",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin23-gcc-14   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=14.7 -o CMakeFiles/submodule2.dir/submodule2.c.o -c /Users/dp/Desktop/speqtral_challenge/master-software/submodule-2/submodule2.c",
+  "file": "/Users/dp/Desktop/speqtral_challenge/master-software/submodule-2/submodule2.c",
+  "output": "submodule-2/CMakeFiles/submodule2.dir/submodule2.c.o"
+},
+{
+  "directory": "/Users/dp/Desktop/speqtral_challenge/master-software/build/submodule-2",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin23-g++-14  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=14.7 -o CMakeFiles/test-submodule2.dir/test-submodule2.cpp.o -c /Users/dp/Desktop/speqtral_challenge/master-software/submodule-2/test-submodule2.cpp",
+  "file": "/Users/dp/Desktop/speqtral_challenge/master-software/submodule-2/test-submodule2.cpp",
+  "output": "submodule-2/CMakeFiles/test-submodule2.dir/test-submodule2.cpp.o"
+},
+{
+  "directory": "/Users/dp/Desktop/speqtral_challenge/master-software/build/submodule-3",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin23-gcc-14   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=14.7 -o CMakeFiles/submodule3_lib.dir/submodule3.c.o -c /Users/dp/Desktop/speqtral_challenge/master-software/submodule-3/submodule3.c",
+  "file": "/Users/dp/Desktop/speqtral_challenge/master-software/submodule-3/submodule3.c",
+  "output": "submodule-3/CMakeFiles/submodule3_lib.dir/submodule3.c.o"
+},
+{
+  "directory": "/Users/dp/Desktop/speqtral_challenge/master-software/build/submodule-3",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin23-gcc-14   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=14.7 -o CMakeFiles/submodule3.dir/submodule3.c.o -c /Users/dp/Desktop/speqtral_challenge/master-software/submodule-3/submodule3.c",
+  "file": "/Users/dp/Desktop/speqtral_challenge/master-software/submodule-3/submodule3.c",
+  "output": "submodule-3/CMakeFiles/submodule3.dir/submodule3.c.o"
+},
+{
+  "directory": "/Users/dp/Desktop/speqtral_challenge/master-software/build/submodule-3",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin23-g++-14  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=14.7 -o CMakeFiles/submodule3_tests.dir/test-submodule3.cpp.o -c /Users/dp/Desktop/speqtral_challenge/master-software/submodule-3/test-submodule3.cpp",
+  "file": "/Users/dp/Desktop/speqtral_challenge/master-software/submodule-3/test-submodule3.cpp",
+  "output": "submodule-3/CMakeFiles/submodule3_tests.dir/test-submodule3.cpp.o"
+},
+{
+  "directory": "/Users/dp/Desktop/speqtral_challenge/master-software/build/submodule-3/submodule-3.1",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin23-gcc-14   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=14.7 -o CMakeFiles/submodule31_lib.dir/submodule31.c.o -c /Users/dp/Desktop/speqtral_challenge/master-software/submodule-3/submodule-3.1/submodule31.c",
+  "file": "/Users/dp/Desktop/speqtral_challenge/master-software/submodule-3/submodule-3.1/submodule31.c",
+  "output": "submodule-3/submodule-3.1/CMakeFiles/submodule31_lib.dir/submodule31.c.o"
+},
+{
+  "directory": "/Users/dp/Desktop/speqtral_challenge/master-software/build/submodule-3/submodule-3.1",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin23-gcc-14   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=14.7 -o CMakeFiles/submodule31.dir/submodule31.c.o -c /Users/dp/Desktop/speqtral_challenge/master-software/submodule-3/submodule-3.1/submodule31.c",
+  "file": "/Users/dp/Desktop/speqtral_challenge/master-software/submodule-3/submodule-3.1/submodule31.c",
+  "output": "submodule-3/submodule-3.1/CMakeFiles/submodule31.dir/submodule31.c.o"
+},
+{
+  "directory": "/Users/dp/Desktop/speqtral_challenge/master-software/build/submodule-3/submodule-3.1",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin23-g++-14  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=14.7 -o CMakeFiles/test-submodule31.dir/test-submodule31.cpp.o -c /Users/dp/Desktop/speqtral_challenge/master-software/submodule-3/submodule-3.1/test-submodule31.cpp",
+  "file": "/Users/dp/Desktop/speqtral_challenge/master-software/submodule-3/submodule-3.1/test-submodule31.cpp",
+  "output": "submodule-3/submodule-3.1/CMakeFiles/test-submodule31.dir/test-submodule31.cpp.o"
+},
+{
+  "directory": "/Users/dp/Desktop/speqtral_challenge/master-software/build/submodule-3/submodule-3.2",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin23-gcc-14   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=14.7 -o CMakeFiles/submodule32_lib.dir/submodule32.c.o -c /Users/dp/Desktop/speqtral_challenge/master-software/submodule-3/submodule-3.2/submodule32.c",
+  "file": "/Users/dp/Desktop/speqtral_challenge/master-software/submodule-3/submodule-3.2/submodule32.c",
+  "output": "submodule-3/submodule-3.2/CMakeFiles/submodule32_lib.dir/submodule32.c.o"
+},
+{
+  "directory": "/Users/dp/Desktop/speqtral_challenge/master-software/build/submodule-3/submodule-3.2",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin23-gcc-14   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=14.7 -o CMakeFiles/submodule32.dir/submodule32.c.o -c /Users/dp/Desktop/speqtral_challenge/master-software/submodule-3/submodule-3.2/submodule32.c",
+  "file": "/Users/dp/Desktop/speqtral_challenge/master-software/submodule-3/submodule-3.2/submodule32.c",
+  "output": "submodule-3/submodule-3.2/CMakeFiles/submodule32.dir/submodule32.c.o"
+},
+{
+  "directory": "/Users/dp/Desktop/speqtral_challenge/master-software/build/submodule-3/submodule-3.2",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin23-g++-14  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=14.7 -o CMakeFiles/test-submodule32.dir/test-submodule32.cpp.o -c /Users/dp/Desktop/speqtral_challenge/master-software/submodule-3/submodule-3.2/test-submodule32.cpp",
+  "file": "/Users/dp/Desktop/speqtral_challenge/master-software/submodule-3/submodule-3.2/test-submodule32.cpp",
+  "output": "submodule-3/submodule-3.2/CMakeFiles/test-submodule32.dir/test-submodule32.cpp.o"
+}
+]

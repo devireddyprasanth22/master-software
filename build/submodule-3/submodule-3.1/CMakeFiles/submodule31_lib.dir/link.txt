@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsubmodule31_lib.a CMakeFiles/submodule31_lib.dir/submodule31.c.o
+/usr/bin/ranlib libsubmodule31_lib.a

@@ -31,4 +31,4 @@ The key scripts can be found in this directory (master-software) and need to be 
 - `store_binaries.sh` -> copies binaries and stores it separately in the same `build/` dir
 - `run_tests.sh` -> triggers the unit tests in the dependency order and stores test log in `build`
 
-The scripts are executed in the `.github/workflows/ci.yaml` file which is allows for CI when pushed onto github. More information of each build can be found in actions tab of the repository
+The scripts are executed in the `.github/workflows/ci.yaml` file which is allows for CI when pushed onto github. More information of each build can be found in actions tab of the repository// Test change

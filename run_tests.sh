@@ -1,7 +1,5 @@
 #!/bin/bash
 
-mkdir -p test_results
-
 echo "Running tests..."
 cd build
 

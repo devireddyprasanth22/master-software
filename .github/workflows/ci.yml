@@ -31,6 +31,7 @@ jobs:
       
       - name: Tag version
         run: ./tag_all_repos.sh v1.0.2
+
       - name: Checkout version
         run: ./check_out_tags.sh v1.0.2
 
@@ -42,4 +43,16 @@ jobs:
 
       - name: Run tests
         run: ./run_tests.sh
+
+      - name: Upload binaries as artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: built-binaries
+          path: build/
+
+      - name: Upload test logs
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-logs
+          path: test-results/
 

@@ -1,0 +1,51 @@
+name: PR Unit Tests
+
+on:
+  pull_request:
+    branches:
+      - main  
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive 
+
+      - name: Install dependencies
+        run: |
+          sudo apt update
+          sudo apt install -y cmake ninja-build g++ libgtest-dev
+
+      - name: Build Google Test
+        run: |
+          cd /usr/src/gtest
+          sudo cmake CMakeLists.txt
+          sudo make
+          sudo cp lib/*.a /usr/lib  # Move libraries to system path
+
+      - name: Checkout version
+        run: ./check_out_tags.sh v1.0.2  
+
+      - name: Build software modules
+        run: ./build_all.sh  
+
+      - name: Store binaries
+        run: ./store_binaries.sh  
+
+      - name: Run unit tests for each module
+        run: ./run_tests.sh  
+
+      - name: Upload binaries as artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: built-binaries
+          path: build/
+
+      - name: Upload test logs
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-logs
+          path: build/  

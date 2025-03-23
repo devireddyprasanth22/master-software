@@ -14,8 +14,17 @@ include_directories(submodule-1 submodule-2 submodule-3)
 # Compile master software
 add_executable(masterSoftware masterSoftware.c)
 
+add_library(masterSoftware_lib masterSoftware.c)
+
 # Link masterSoftware with submodules
-target_link_libraries(masterSoftware submodule-1 submodule-2 submodule-3)
+#target_link_libraries(masterSoftware submodule-1 submodule-2 submodule-3)
+
+# Link master with submodule-1
+target_link_libraries(masterSoftware
+    PRIVATE
+    submodule1_lib
+    submodule2_lib
+    submodule3_lib)
 
 # Find Google Test
 find_package(GTest REQUIRED)
@@ -25,7 +34,7 @@ include_directories(${GTEST_INCLUDE_DIRS})
 add_executable(test-masterSoftware test-masterSoftware.cpp)
 
 # Link test-masterSoftware with GTest and submodules
-target_link_libraries(test-masterSoftware GTest::GTest GTest::Main pthread submodule-1 submodule-2 submodule-3)
+target_link_libraries(test-masterSoftware GTest::GTest GTest::Main pthread submodule1_lib submodule2_lib submodule3_lib)
 
 # Register master software test
 add_test(NAME master-software-test COMMAND test-masterSoftware)

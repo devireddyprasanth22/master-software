@@ -1,2 +1,0 @@
-/usr/bin/ar qc libsubmodule3_lib.a CMakeFiles/submodule3_lib.dir/submodule3.c.o
-/usr/bin/ranlib libsubmodule3_lib.a

@@ -1,21 +1,25 @@
 #!/bin/bash
 
-VERSION_TAG="$1"
+VERSION="$1"  # Change for new versions
 
-echo "Checking out version $VERSION_TAG in the main repository..."
+echo "Tagging all repositories with version $VERSION..."
 
-# Checkout the main repository's tag
-git fetch --tags
-git checkout $VERSION_TAG || { echo "Failed to checkout version in the main repository"; exit 1; }
+# Find all submodules recursively
+MODULES=$(git submodule foreach --quiet 'echo $sm_path')
 
-# Initialize and update all submodules recursively
-git submodule update --init --recursive
+# Tag master software first
+git tag -a $VERSION -m "Release $VERSION"
+git push origin $VERSION
 
-# Recursively checkout the correct version in all submodules
-git submodule foreach --recursive '
-  echo "Checking out version $VERSION_TAG in $name..."
-  git fetch --tags
-  git checkout '"$VERSION_TAG"' || { echo "Failed to checkout version in $name"; exit 1; }
-'
+# Tag all submodules
+for MODULE in $MODULES; do
+    echo "Tagging $MODULE..."
+    cd $MODULE || { echo "Error: $MODULE not found!"; exit 1; }
+    
+    git tag -a $VERSION -m "Release $VERSION"
+    git push origin $VERSION
+    
+    cd - > /dev/null
+done
 
-echo "Successfully checked out version $VERSION_TAG in all repositories."
+echo "Tagging completed!"

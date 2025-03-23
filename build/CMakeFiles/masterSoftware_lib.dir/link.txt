@@ -1,2 +1,0 @@
-/usr/bin/ar qc libmasterSoftware_lib.a CMakeFiles/masterSoftware_lib.dir/masterSoftware.c.o
-/usr/bin/ranlib libmasterSoftware_lib.a

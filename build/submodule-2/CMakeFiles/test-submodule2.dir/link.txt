@@ -1,1 +1,0 @@
-/opt/homebrew/bin/aarch64-apple-darwin23-g++-14 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=14.7 -Wl,-search_paths_first -Wl,-headerpad_max_install_names "CMakeFiles/test-submodule2.dir/test-submodule2.cpp.o" -o test-submodule2  -lpthread libsubmodule2_lib.a /opt/homebrew/lib/libgtest_main.a /opt/homebrew/lib/libgtest.a

@@ -1,2 +1,0 @@
-/usr/bin/ar qc libsubmodule32_lib.a CMakeFiles/submodule32_lib.dir/submodule32.c.o
-/usr/bin/ranlib libsubmodule32_lib.a

@@ -1,0 +1,44 @@
+name: CI Pipeline
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive  # Ensures all submodules are checked out
+
+      - name: Install dependencies
+        run: |
+          sudo apt update
+          sudo apt install -y cmake ninja-build g++ libgtest-dev
+
+      - name: Build Google Test
+        run: |
+          cd /usr/src/gtest
+          sudo cmake CMakeLists.txt
+          sudo make
+          sudo cp lib/*.a /usr/lib  # Move libraries to system path
+      - name: Tag version
+	run: ./script v1.0.2
+      - name: Checkout version
+        run: ./checkout_version.sh
+
+      - name: Build software
+        run: ./build_all.sh
+
+      - name: Store binaries
+        run: ./store_binaries.sh
+
+      - name: Run tests
+        run: ./run_tests.sh
+

@@ -28,8 +28,9 @@ jobs:
           sudo cmake CMakeLists.txt
           sudo make
           sudo cp lib/*.a /usr/lib  # Move libraries to system path
+      
       - name: Tag version
-	run: ./script v1.0.2
+        run: ./script v1.0.2
       - name: Checkout version
         run: ./checkout_version.sh
 

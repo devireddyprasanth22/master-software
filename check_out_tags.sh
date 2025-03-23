@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERSION_TAG="v1.0.1"
+VERSION_TAG="$1"
 
 echo "Checking out version $VERSION_TAG in the main repository..."
 

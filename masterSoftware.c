@@ -1,8 +1,9 @@
 #include <stdio.h>
 
-int main() {
+int main () {
+
    //logging from masterSoftware.c
-   printf("Hello from Master Software");
+   printf("Hello from Master Software\n");
 
     return 0;
 }
